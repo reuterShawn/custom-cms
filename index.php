@@ -21,7 +21,7 @@ if (isset($_POST['email'])) {
             $_SESSION['email'] = $user['email'];
             $_SESSION['username'] = $user['username'];
 
-            //TODO give feedback / welcome message
+            set_message("You have successfully logged in" . $_SESSION['username']);
             header('Location: dashboard.php');
             die();
         }
