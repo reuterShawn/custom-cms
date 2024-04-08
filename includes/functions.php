@@ -3,8 +3,8 @@
 function secure()
 {
     if (!isset($_SESSION['id'])) {
-        echo 'Please login first to view this page';
-        header('Location: /');
+        set_message("Please login first to view this page.");
+        header('Location: /cms');
         die();
     }
 }
