@@ -7,7 +7,7 @@ include ('includes/functions.php');
 include ('includes/header.php');
 
 if (isset($_SESSION['id'])) {
-    header('Location: dashboard.php')
+    header('Location: dashboard.php');
     die();
 }
 
