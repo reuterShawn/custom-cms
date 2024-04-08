@@ -6,9 +6,6 @@ include ('includes/functions.php');
 secure();
 
 include ('includes/header.php');
-
-var_dump($_SESSION);
-
 ?>
 <div class="container">
     <div class="row justify-content-center">
