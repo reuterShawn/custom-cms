@@ -5,7 +5,7 @@ I am creating a custom CMS to serve as a ligntweight implementation of a collect
 
 ### Aimed at Specific Industries
 
-I am going to try and target two different industires wedding photographers and restaurant industry as a way to add a menu and ambience to their website.
+I am going to try and target two different industries, wedding photographers and restaurant industry as a way to add a menu and ambience to their website.
 
 ### Advantages
 
